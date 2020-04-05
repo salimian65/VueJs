@@ -64,11 +64,6 @@ export default {
     }
   },
   created() {
-    // var sss = await axios.get(
-    //   "https://jsonplaceholder.typicode.com/todos?_limit=5"
-    // );
-    // this.todos = sss.data;
-
     axios
       .get("https://jsonplaceholder.typicode.com/todos?_limit=5")
       .then(res => {
