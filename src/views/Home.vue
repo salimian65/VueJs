@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     doSomeThing() {
-      // console.debug("hello");
+      console.debug("hello");
     },
 
     deleteTodo(id) {
